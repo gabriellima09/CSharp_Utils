@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>method</Title>
+			<Shortcut>method</Shortcut>
+			<Description>Trecho de código para um método implementado automaticamente
+Versão da Linguagem: C# 3.0 ou superior</Description>
+			<Author>Gabriel Lima</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Tipo de retorno</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Nome do método</ToolTip>
+					<Default>MyMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[public $type$ $name$ ()
+			{
+				throw new NotImplementedException();
+			}
+			$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
